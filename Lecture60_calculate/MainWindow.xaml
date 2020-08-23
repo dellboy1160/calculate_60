@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lecture60_calculate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture60_calculate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="685.319" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="คำนวณ" HorizontalAlignment="Left" Margin="289,244,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="Button_Click" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="รายรับ" HorizontalAlignment="Left" Margin="212,83,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="รายจ่าย" HorizontalAlignment="Left" Margin="206,140,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="ราคาสินค้า" HorizontalAlignment="Left" Margin="192,204,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <TextBox x:Name="txt_income" HorizontalAlignment="Left" Height="23" Margin="289,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txt_income_TextChanged" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <TextBox x:Name="txt_spend" HorizontalAlignment="Left" Height="23" Margin="289,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <TextBox x:Name="txt_price" HorizontalAlignment="Left" Height="23" Margin="289,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="446,83,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="446,136,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="446,200,0,0" VerticalAlignment="Top" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <TextBox x:Name="txt_save_money" HorizontalAlignment="Left" Height="23" Margin="129,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="444" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="487,353,0,0" VerticalAlignment="Top" Width="86" Height="25" Click="Button_Click2" FontFamily="Microsoft Sans Serif" FontSize="16"/>
+
+    </Grid>
+</Window>
